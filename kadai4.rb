@@ -12,7 +12,7 @@ class Bingo
   def display
     puts ' B| I| N| G| O'
     (0..4).each do |i|
-      puts "#{@column_b[i].to_s.rjust(2)}|" + "#{@column_i[i].to_s.rjust(2)}|" + "#{@column_n[i].to_s.rjust(2)}|" + "#{@column_g[i].to_s.rjust(2)}|" + @column_o[i].to_s.rjust(2).to_s
+      puts "#{@column_b[i].to_s.rjust(2)}|" + "#{@column_i[i].to_s.rjust(2)}|" + "#{@column_n[i].to_s.rjust(2)}|" + "#{@column_g[i].to_s.rjust(2)}|" + @column_o[i].to_s.rjust(2)
     end
   end
 end
