@@ -7,7 +7,7 @@ class Menu
     total_price = count*self.price
 
     if count >= 3 
-      total_price = count*10000
+      total_price -= 10000
     end
 
    return "#{self.name} #{total_price}vnd"
