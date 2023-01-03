@@ -11,8 +11,8 @@ class Menu
 
   def get_total_price(number)
     if is_an_integer(number)
-      price = number >= 3 ? @price - 10_000 : @price
-      total_price = price * number
+      price = number.to_i >= 3 ? @price - 10_000 : @price
+      total_price = price * number.to_i
       "#{name} #{total_price}vnd"
     else
       '入力は整数でなければなりません'
@@ -23,4 +23,4 @@ end
 menu1 = Menu.new
 menu1.name = 'Phở'
 menu1.price = 30_000
-puts menu1.get_total_price('q')
+puts menu1.get_total_price('12')
