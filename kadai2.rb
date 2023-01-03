@@ -1,4 +1,4 @@
-class Menu
+gitclass Menu
  attr_accessor :name
  attr_accessor :price
   def initialize(name:, price:)
