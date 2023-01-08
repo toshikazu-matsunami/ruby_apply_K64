@@ -11,9 +11,9 @@ class Menu
 
   end
   
-  dish1 = Menu.new("Bún riêu",35000)
-  dish2 = Menu.new("Cơm gà",45000)
-  dish3 = Menu.new("Cơm rang",35000)
+  food1 = Menu.new("Cơm thố",50000)
+  food2 = Menu.new("Sushi",450000)
+  food3 = Menu.new("bò wellington",750000)
   
   menus = []
   menus << dish1

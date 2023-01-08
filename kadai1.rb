@@ -18,7 +18,7 @@ class Menu
    end
    
    menu1 = Menu.new
-   menu1.name = "Phở"
+   menu1.name = "Mỳ ý"
    menu1.price = 30000
    
    # menu1に対してget_total_priceメソッドを呼び出してください
