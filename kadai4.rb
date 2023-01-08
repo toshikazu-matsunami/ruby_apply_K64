@@ -17,20 +17,23 @@ end
 card = Bingo.new
 card.generate_card
 
-print "B"
-print " | I"
-print " | N"
-print " | G"
-print " | O"
+print " B"
+print " |  I"
+print " |  N"
+print " |  G"
+print " |  O"
 puts ""
 i = 0
 while i < 5
-
-  print "#{card.B[i]}".rjust(3)
-  print "| #{card.I[i]}".rjust(3)
-  print "| #{card.N[i]}".rjust(3)
-  print "| #{card.G[i]}".rjust(3)
-  print "| #{card.O[i]}".rjust(3)
+  print "#{card.B[i]} ".rjust(3)
+  print "| #{card.I[i]} ".rjust(3)
+  if i == 2
+    print ("|    ")
+  else
+    print "| #{card.N[i]} ".rjust(3)
+  end
+  print "| #{card.G[i]} ".rjust(3)
+  print "| #{card.O[i]} ".rjust(3)
   puts ""
   i +=1
 end
