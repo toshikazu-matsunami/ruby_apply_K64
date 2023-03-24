@@ -1,19 +1,41 @@
-# Ruby on Replit
+# RUBYという言語を練習するために課題
+**1. kadai1.rb:**
+  + 好きな西暦を変数に代入すると、その年に「夏季オリンピックが開催されたかどうか」を出力するプログラムを作ります.
 
-This is a template to get you started with Ruby on Replit. It's ready to go so you can just hit run and start coding!
+**2. kadai2.rb:**
+  + 第1回大会から第10回大会までのオリンピックについて情報を出力するプログラムをつくります。
+  夏季オリンピックは下記の条件で開催されています。
+  * 第1回から第10回まで䛾オリンピック情報を配列に格納し、 変数
+  「olympics」に代入します。
+  * 配列の要素を順番に取り出してeach文を作成してください。
+  * それぞれの要素は変数「olympic」に代入します。
+  * each文の中では
 
-## Running the repl
-
-Simply hit run! You can edit the run command from the `.replit` file.
-
-## Installing packages
-
-To add packages to your repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/v2.3/#getting-started).
-
-**Warning: Avoid using `gem install` to add packages.**
-
-Beacuse Ruby repls use [Bundle](https://bundler.io/) under the hood to provide a consistent environment that tracks and installs the exact gems and versions needed, we recommend using `bundle install` instead of `gem install`, which may not work as expected.
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+  ---------------------
+  ○○年△△大会を出力します。
+  ＊○○には「:year」、「△△」には「:city」「豆知識」には「:note」入れます。
+  
+**3. kadai3.rb:**
+  + キーボードで入力した数字を確認します。
+  + その数字が以下䛾条件に当てはまるかどうかを確認します。
+  + 確認した後、画面に適切な結果を出力します。
+  - *条件:*
+    + 2の倍数です。
+    + 7の倍数です。
+    + 14の倍数です。
+    + 2の倍数でも7の倍数でもありません。
+    + 整数ではありません。
+    
+**4. kadai4.rb:**
+  - 学生の名前を管理するシステムを作成します。
+  - *条件:*
+    - ユーザ䛿画面䛾上で学生数を設定する(入力)
+    - 設定した後、システムがユーザに人数分䛾学生名を入力させます。
+    - 入力した結果䛿名簿として出力されます。
+    
+**5. kadai5.rb:**
+  - 課題(4)で作成した学生の名前を管理するシステムに
+  - 仕様変更を行います。
+  - *条件:*
+    - システムはユーザに学籍番号を入力させます。
+    - 入力した結果を表示する名簿のUIを変更します。
